@@ -8,7 +8,7 @@
 
 #region Runbook header
     $ErrorActionPreference = 'Stop'
-    $VerbosePreference = 'Continue'
+    #$VerbosePreference = 'Continue'
     $WebServiceCred = Get-AutomationPSCredential -Name 'credSMAWorker'
     $WebserviceEndpoint = Get-AutomationVariable -Name 'SMAWebService'
     $SMAJobID = $PSPrivateMetadata.JobID.GUID

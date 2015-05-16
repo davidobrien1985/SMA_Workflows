@@ -28,6 +28,17 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="JEM_SendEmail.ps1" />
+    <Compile Include="JEM_SQLBuild10VMCustomisation.ps1" />
+    <Compile Include="JEM_SQLBuild11CreateADObjects.ps1" />
+    <Compile Include="JEM_SQLBuild12InstallSQL.ps1" />
+    <Compile Include="JEM_VMBuild.ps1" />
+    <Compile Include="JEM_VMBuild20ActiveDirectory.ps1" />
+    <Compile Include="JEM_VMBuild21CreateADComputerObject.ps1" />
+    <Compile Include="JEM_VMBuild22CreateADGroups.ps1" />
+    <Compile Include="JEM_VMBuild30VMware.ps1" />
+    <Compile Include="JEM_VMBuild31VMwareOSConfig.ps1" />
+    <Compile Include="JEM_VMBuild99SCOMAgent.ps1" />
     <Compile Include="Script.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
