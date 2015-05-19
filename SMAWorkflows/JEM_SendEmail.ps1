@@ -6,7 +6,7 @@
         [string]$EmailBody
     )
 
-#region Runbook header
+#region Runbook header 
     $ErrorActionPreference = 'Stop'
     #$VerbosePreference = 'Continue'
     $WebServiceCred = Get-AutomationPSCredential -Name 'credSMAWorker'
